@@ -1,0 +1,94 @@
+.banner{
+    background: url(../img/join_us_banner.png?v=a68099060f) no-repeat 0 0;
+    height: 500px;
+    color: #fff;
+    text-align:left;
+    padding-top: 130px;
+    box-sizing: border-box;
+  }
+.banner_title{
+  font-size: 70px;
+}
+.banner_detail{
+  font-size: 30px;
+}
+.banner_border{
+  width: 245px;
+  display: inline-block;
+  border-bottom: 2px solid #fff;
+  margin-top:20px;
+  margin-bottom:50px;
+}
+.support{
+  height: 470px;
+  background: #fff;
+  text-align: center;
+  padding-top: 70px;
+}
+.support .products_title{
+  color: #494949;
+}
+.support .products_title_1{
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: Microsoft YaHei Light;
+}
+.support .products_title_2{
+  margin-bottom: 70px;
+}
+.support_content .support_con_div{
+  display: inline-block;
+  margin-right:60px;
+}
+.support_content .support_con_div img{
+  margin-bottom: 25px;
+}
+.support_con_div_last{
+  margin-right:0;
+}
+.conditions{
+  height: 653px;
+  background: #fff url(../img/jiandandetiaojianbeijing.png?v=f0cd8c7389) no-repeat 0 0;
+  text-align: center;
+  padding-top: 70px;
+  box-sizing: border-box;
+  font-family: Microsoft YaHei Light;
+}
+.conditions .products_title{
+  color: #fff;
+}
+.conditions .products_title_1{
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: Microsoft YaHei Light;
+}
+.conditions .products_title_2{
+  margin-bottom: 70px;
+}
+.conditions_content{
+  height: 250px;
+}
+.conditions_content .conditions_con_div{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 290px;
+}
+.conditions_content  .conditions_con_img{
+  height: 134px;
+}
+.conditions_content  .conditions_con_p1{
+  font-size: 24px;
+  color: #fff;
+  height: 55px;
+  margin-top: 25px;
+}
+.conditions_content  .conditions_con_p2{
+  font-size: 18px;
+  color: #fff;
+  height: 60px;
+  line-height: 30px;
+}
+.conditions_con_div_oneline{
+  position: relative;
+  top: -22px;
+}

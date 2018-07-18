@@ -1,0 +1,158 @@
+.banner{
+  background: url(../img/service_banner.png?v=37b16af6fe) no-repeat 0 0;
+  height: 500px;
+  color: #fff;
+  text-align: center;
+  padding-top: 130px;
+  box-sizing: border-box;
+}
+.banner .banner_title{
+  font-size: 70px;
+  margin-bottom: 65px;
+}
+.banner .banner_detail{
+  font-size: 30px;
+}
+.banner .banner_border{
+  width: 245px;
+  display: inline-block;
+  border-bottom: 2px solid #fff;
+  margin-top: 20px;
+}
+
+.service_products{
+  height: 688px;
+  background: #f5f5f5;
+  text-align: center;
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+.service_products .products_title{
+  color: #494949;
+}
+.service_products .products_title .products_title_1{
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: Microsoft YaHei Light;
+}
+.service_products .products_title .products_title_2{
+  margin-bottom: 70px;
+}
+.products_type{
+  width: 330px;
+  height: 350px;
+  background: #fff;
+  display: inline-block;
+  position: relative;
+  color: #333333;
+}
+.products_type .products_img{
+  height: 220px;
+  width: 330px;
+  display: block;
+}
+.products_type .pro_title1{
+  font-size: 22px;
+  margin-top: 35px;
+}
+.products_type .pro_title1{
+  font-size: 20px;
+  margin: 20px 0;
+}
+.products_type .products_cover{
+  display: none;
+  background: #000;
+  opacity: 0.7;
+  width: 330px;
+  height: 350px;
+  position: absolute;
+  top:0;
+  left:0;
+  color: #fff;
+  padding: 120px 20px 0;
+  box-sizing: border-box;
+}
+.products_type .products_cover a{
+  color: #fff;
+}
+.products_type  .products_cover_p{
+  color: #fff;
+  font-size: 18px;
+  line-height: 40px;
+  margin-bottom: 55px;
+}
+.products_type  .more_btn{
+  border: 1px solid #fff;
+  width: 90px;
+  height: 15px;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 5px 10px 10px;
+  cursor: pointer;
+  text-align: center;
+}
+.products_type2{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.products_type:hover .products_cover{
+  display: block;
+}
+.service_solution{
+  height: 930px;
+  background: #fff;
+  text-align: center;
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+.service_solution .products_title{
+  color: #494949;
+}
+.service_solution .products_title .products_title_1{
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: Microsoft YaHei Light;
+}
+.service_solution .products_title .products_title_2{
+  margin-bottom: 70px;
+}
+.solution_content{
+  width: 885px;
+  color: #333;
+  display: inline-block;
+  text-align: left;
+}
+.solution_content .solution_content_p1{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.solution_content .solution_content_p2{
+  font-size: 16px;
+  line-height: 30px;
+} 
+.solution_part1, .solution_part3{
+  height: 235px;
+  padding: 30px 0;
+  box-sizing: border-box;
+}
+.solution_part1 .solution_content{
+  margin-left: 10px;
+}
+   
+.solution_part2{
+  height: 235px;
+  padding: 30px 0;
+  box-sizing: border-box;  
+}
+.solution_part2 .solution_content{
+  margin-right: 10px;
+}
+  
+.solution_part1:hover, .solution_part3:hover, .solution_part2:hover{
+  background: #f7f3e8;
+}
+.solution_img{
+  width:280px;
+  height:150px;
+  display:inline-block;
+}

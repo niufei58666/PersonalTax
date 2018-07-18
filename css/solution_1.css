@@ -1,0 +1,45 @@
+.solution_body{
+    background: #f7f3e8;
+  }
+.solution_body .crumb{
+  cursor: pointer;
+  height:20px;
+  padding: 15px 0;
+  font-size: 18px;
+}
+.solution_body .crumb span:hover{
+  color: #e1ac21;
+}
+.artical{
+  background: #fff;
+}
+.artical .artical_title{
+  border-bottom: 1px solid #999;
+  height: 88px;
+  line-height: 88px;
+  font-size: 20px;
+  text-align: center;
+}
+.artical .artical_con{
+  color:#999;
+  padding: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  position: relative;
+  border-bottom: 1px solid #999;
+}
+.artical .artical_con span.end{
+  position: absolute;
+  bottom: -15px;
+  left: 46%;
+  color: #999;
+}
+.artical .other_articals{
+  height: 140px;
+  line-height:60px;
+  font-size: 20px;
+  padding: 0 30px;
+}
+.artical .other_articals span{
+  cursor: pointer;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta  charset="UTF-8">
+	<title>个税宝-行业咨询、股权转让</title>
+  <meta name="keywords" content="合理避税,个税筹划,股权转让、财税" />
+  <meta name="description" content="个税宝—为您提供最新最全的行业资讯，为公司、企业提供全方位的股权转让节税筹划。" />
+	<link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/hot_information.css">
+  <link rel="stylesheet" href="../css/pagination.css">
+</head>
+<body>
+  	<div class="header">
+        <div class="wrapper_header">
+          <img src="../img/geshuibao.png" title="个税宝" class="GeShuiBaoImg">
+          <p class="el-menu">
+            <a href="../home.html"><span>首页</span></a>
+              <a href="./service_products.html"><span>服务产品</span></a>
+              <a href="./hot_information.html" class="choose"><span>热门资讯</span></a>
+              <a href="./partners.html"><span>合伙人招募</span></a>
+              <a href="./about_us.html"><span>关于我们</span></a>
+        </p>
+       </div>
+    </div>
+    <div class="hot_content">
+      <div class="little_wrapper">
+        <p class="crumb">
+          <a href="../home.html"><span>首页</span></a> &gt;
+          <a href="./hot_information.html"><span>热门资讯</span></a> &gt;
+          <span id="typeShow"></span>
+        </p>
+      </div>
+      <div class="hot_title">
+        <div class="border_left border_"></div>
+        <div class="border_right border_"></div>
+        <div class="little_wrapper ">
+          <img src="../img/remenzixun.png" alt="" class="hot_title_img">
+          <span onclick="toType('all')"><a href="javascript:;" class="showAll">全部</a></span>
+          <span onclick="toType('rdgz')"><a href="javascript:;" class="showRdgz">热点关注</a></span> 
+          <span onclick="toType('zcjd')"><a href="javascript:;" class="showZcjd">政策解读</a></span> 
+          <span onclick="toType('gsch')"><a href="javascript:;" class="showGsch">个税筹划</a></span>    
+        </div>
+      </div>
+      <div class="little_wrapper">
+        <div>
+          <ul id="hot_ul"></ul>
+          <!-- 分页 -->
+          <div class="block_footer">
+            <div id="pagination_8"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+    <div class="consulting_box">
+        <div class="little_wrapper">
+        <img src="../img/dibukefu.png" alt="" class="kefuimg">
+          <span class="consult_span"><span class="consult_span_border">为您提供</span>一站式专属税务筹划方案</span>
+          <input placeholder="怎么称呼您" class="consult_name" onfocus="aboutPlaceholder('.consult_name')" onblur="aboutPlaceholder2('.consult_name')"></input>
+          <input placeholder="请留下您的手机号码" class="consult_phone" onfocus="aboutPlaceholderAgain('.consult_phone')" onblur="aboutPlaceholderAgain2('.consult_phone')"></input>
+          <button  class="btn_consult" onclick="toSubmit()">立即咨询</button>
+        </div>
+      </div>
+      <div class="bottom_footer">
+        <div class="little_center">
+          <div class="bottom_footer_left">
+            <p class="bottom_footer_left1">联系我们</p>
+            <p class="bottom_footer_left2">
+              客服电话：400-1670-166<br>
+              客服工作时间：工作日9:00-20:00<br>
+            邮箱：geshuibao@51geshui.com<br>
+            地址：杭州市西湖区文二西路1号元茂大厦1001<br>
+            </p>
+          </div>
+          <div class="bottom_footer_right">
+            <img src="../img/erweimageshuibao.JPG" alt="">
+          </div>
+        </div>
+        <div class="bottom_footer_2">&copy;2017-2018 杭州大利税手网络科技有限公司 All Reserved 浙ICP备18002681号-1</div>
+      </div>
+    </div>
+    <!-- common -->
+    <div class="fixed_foot">
+        <img src="../img/dibukefu.png" alt="" class="kefuimg">
+        <span class="consult_span"><span class="consult_span_border">免费领取</span>您的专属税务筹划方案</span>
+        <input placeholder="怎么称呼您" class="consult_name_fixed" onfocus="aboutPlaceholder_fixed('.consult_name_fixed')" onblur="aboutPlaceholder2_fixed('.consult_name_fixed')"></input>
+        <input placeholder="请留下您的手机号码" class="consult_phone_fixed" onfocus="aboutPlaceholderAgain_fixed('.consult_phone_fixed')" onblur="aboutPlaceholderAgain2_fixed('.consult_phone_fixed')"></input>
+        <button  class="btn_consult" onclick="toSubmit_fixed()">立即咨询</button>
+        <span class="close_footer" onclick="close_footer()"><img src="../img/cha.png" alt=""></span>
+    </div>
+    <div class="fixed_right">
+        <div class="right_phone">
+            <span class="right_namespan">电话</span>
+            <div class="hover_box">
+                <img src="../img/tokefu.png" alt="">
+                <span>400-1670-166</span>
+            </div>
+        </div>
+        <div class="right_kefu">
+            <span class="right_namespan">客服</span>
+        </div>
+        <div class="right_calculator">
+            <div onclick="showCalculator()">
+                <img src="../img/tocalculator.png" alt="">
+                <span class="right_namespan">节税计算器</span>
+            </div>
+            <div class="calculator_con">
+                <span class="close_cal" onclick="close_cal()"><img src="../img/cha.png" alt=""></span>
+                <div class="calculator_title">节税计算器</div>
+                <div class="yearearn_box">
+                    <div class="error_warn please_none">
+                        <img src="../img/redcha.png" alt="">
+                        <span class="please_right">请输入正确的年收入金额</span>
+                    </div>
+                    <input type="text" placeholder="请输入实际年收入额" class="please_cal">
+                </div>
+                <div class="middle_box">
+                    <div class="middle_box_mid1">税种选择：个人所得税</div>
+                    <div class="middle_box_mid2">合同种类：<span class="choose_span choose_span_active" onclick="getactive()">劳动合同</span> <span class="choose_span" onclick="getactive()">劳务合同</span></div>
+                    <div class="middle_box_mid3"><span>浏览人数：18,620人</span>  <span>节税总额：265,668,605元</span></div>
+                </div>
+                <div>
+                    <!-- 点击节税 一页隐藏 二页出现  计算-->
+                    <span class="cal_btn" onclick="showCalculatorRes()">节税</span>
+                </div>
+            </div>
+
+            <div class="calculator_con_res">
+                <span class="close_res" onclick="close_res()"><img src="../img/cha.png" alt=""></span>
+                <div class="calculator_title">节税计算器</div>
+                <div class="res_box" id="res_box">
+                    <div id="pie_box" style="width: 260px; height: 180px;"><!-- 饼图 --></div>
+                    <p class="before_abso"> <span class="color_before"></span>预计应缴纳税金：￥ <span class="amount_before">XXX</span></p>
+                    <p class="after_abso">  <span class="color_after"></span>预计应缴纳税金：￥ <span class="amount_after">XXX</span></p>
+                    <p class="top_left"></p>
+                    <p class="top_right"></p>
+                </div>
+
+                <div>
+                    <p class="res_p1">使用个税宝后，节税比例：<span class="save_percentage">XX</span>%</p>
+                    <p class="res_p2">节税金额 ￥<span class="save_amount">XXXXX</span></p>
+                    <p><input type="text" placeholder="请输入您的姓名" class="consult_name_right"></p>
+                    <p><input type="text" placeholder="请输入有效电话号码" class="consult_phone_right"></p>
+                    <span class="cal_sumbit_btn" onclick="toSubmit_right()">立即获取节税方案</span>
+                </div>
+            </div>
+        </div>
+        <div class="right_totop">
+            <a href="#" class="totop_a">
+                <img src="../img/totop.png" alt="">
+            </a>
+        </div>
+    </div>
+    <script src="../js/echarts.simple.min.js"></script>
+  <script src="../js/hot_information.js"></script>
+  <script src="../js/common.js"></script>
+  <script src="../js/jquery-3.3.1.min.js"></script>
+  <script src="../js/pagination.min.js"></script>
+</body>
+</html>
+  

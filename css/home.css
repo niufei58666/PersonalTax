@@ -1,0 +1,250 @@
+.banner{
+	background: url(../img/bigbanner.png?v=4421158f04) no-repeat 0 0;
+	height: 500px;
+	color: #fff;
+	text-align: center;
+	padding-top: 130px;
+	box-sizing: border-box;
+}
+.banner .banner_title{
+	font-size: 70px;
+	margin-bottom: 65px;
+}
+.banner .banner_detail{
+	font-size: 30px;
+}
+.banner .banner_border{
+	width: 245px;
+	display: inline-block;
+	border-bottom: 2px solid #fff;
+	margin-top: 20px;
+}
+.showMoney{
+	display: none;
+	height: 160px;
+	background: #f7f3e8;
+	text-align: center;
+}
+.showMoneyCon{
+	color: #484846;
+	display: inline-block;
+	width: 800px;
+	overflow: hidden;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+.showMoneyCon span{
+	display: inline-block;
+}
+.showMoney .index_number{
+	font-size: 40px;
+	color: #ee2b42;
+	padding-top: 15px;
+}
+.service_products{
+	height: 688px;
+	background: #f5f5f5;
+	text-align: center;
+	padding-top: 70px;
+	box-sizing: border-box;
+}
+.service_products .products_title{
+	color: #494949;
+	position: relative;
+}
+.service_products .products_title_1{
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-family: Microsoft YaHei Light;
+}
+.service_products .products_title_2{
+	margin-bottom: 70px;
+}
+.products_type{
+	width: 330px;
+	height: 350px;
+	background: #fff;
+	display: inline-block;
+	position: relative;
+	color: #333333;
+}
+.products_type .products_img{
+	height: 220px;
+	width: 330px;
+	display: block;
+}
+.products_type .pro_title1{
+	font-size: 22px;
+	margin-top: 35px;
+}
+.products_type .pro_title1{
+	font-size: 20px;
+	margin: 20px 0;
+}
+.products_type .products_cover{
+	display: none;
+	background: #000;
+	opacity: 0.7;
+	width: 330px;
+	height: 350px;
+	position: absolute;
+	top:0;
+	left:0;
+	padding: 120px 20px 0;
+	box-sizing: border-box;
+}
+.products_type .products_cover a{
+	color: #fff;
+}
+.products_type .products_cover_p{
+	font-size: 18px;
+	line-height: 40px;
+	margin-bottom: 55px;
+	color: #fff;
+}
+.products_type .more_btn{
+	border: 1px solid #fff;
+	width: 90px;
+	height: 15px;
+	display: inline-block;
+	border-radius: 20px;
+	padding: 5px 10px 10px;
+	cursor: pointer;
+	text-align: center;
+}
+.products_type2{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.products_type:hover .products_cover{
+	display: block;
+}
+
+.products_crowd{
+	height: 990px;
+	background: #fff;
+	text-align: center;
+	padding-top: 70px;
+	box-sizing: border-box;
+}
+.products_crowd .products_title{
+	color: #494949;
+}
+.products_title .products_title_1{
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-family: Microsoft YaHei Light;
+}
+.products_title .products_title_2{
+	margin-bottom: 70px;
+}
+.crowd_introduce{
+	margin: 70px 0;
+	font-size: 30px;
+	color: #666;
+}
+.crowd_img{
+	height: 650px;
+	padding-bottom:100px;
+}
+.crowd_img img{
+	float:left;
+}
+.crowd_img_2, .crowd_img_4, .crowd_img_6{
+	position: relative;
+	top: 55px;
+}
+.hot_information{
+	height: 800px;
+	background: #f5f5f5;
+	text-align: center;
+	padding-top: 70px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.hot_information .products_title{
+	color: #494949;
+}
+.hot_information .products_title_1{
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-family: Microsoft YaHei Light;
+}
+.hot_information .products_title_2{
+	margin-bottom: 70px;
+}
+.information_left{
+	height: 410px;
+	width: 50%;
+	float: left;
+}
+.information_left img{
+	height: 100%;
+	width: 100%;
+}
+.information_right{
+	float: left;
+	margin-left: 40px;
+	text-align: left;
+	color: #333;
+	width: 40%;
+}
+.information_right .more_btn{
+	border: 1px solid #333;
+	width: 90px;
+	height: 15px;
+	display: inline-block;
+	border-radius: 20px;
+	padding: 5px 10px 10px;
+	cursor: pointer;
+	text-align: center;
+	position:relative;
+	left: 10px;
+}
+.information_right ul{
+	overflow: hidden;
+}
+.information_right ul .information_title{
+	margin-bottom: 15px;
+	font-size: 20px;
+	overflow: hidden;
+	width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.information_right ul .information_time{
+	margin-bottom: 30px;
+	font-size: 14px;
+	text-indent: 10px;
+}
+.customer_message{
+	height: 785px;
+	background: #fff;
+	text-align: center;
+	padding-top: 70px;
+	box-sizing: border-box;
+}
+.customer_message .products_title{
+	color: #494949;
+}
+.customer_message .products_title_1{
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-family: Microsoft YaHei Light;
+}
+.customer_message .products_title_2{
+	margin-bottom: 70px;
+}
+.swiper-container {
+    width: 990px;
+    height: 600px;
+}
+.slide_p1{
+	font-size: 30px;
+	color: #333;
+	margin: 30px 0 35px;
+}
+.slide_p2{
+	font-size: 22px;
+	color: #666;
+}
